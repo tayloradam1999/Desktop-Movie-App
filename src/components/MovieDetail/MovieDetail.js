@@ -36,11 +36,13 @@ const MovieDetail = () => {
         <div className="loading">Loading...</div>
       ) : (
         <>
+        {/* all details are to be put on left side of screen */}
           <div className="section-left">
             <div className="movie-title">
               {data.Title}
             </div>
             <div className="movie-rating">
+              {/* fa for font awesome icons */}
               <span>
                 IMDB Rating <i className="fa fa-star"></i> : {data.imdbRating}
               </span>
@@ -81,6 +83,7 @@ const MovieDetail = () => {
               </div>
             </div>
           </div>
+          {/* movie/show poster goes on right of page on Desktop, below details on mobile */}
           <div className="section-right">
             <img src={data.Poster} alt={data.Title} />
           </div>

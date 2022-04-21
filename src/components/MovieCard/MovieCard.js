@@ -8,6 +8,7 @@ const MovieCard = (props) => {
 
   return (
     <div className="card-item">
+      {/* Link to movie details page with imdbID as param, taken from URL */}
       <Link to={`/movie/${data.imdbID}`}>
         <div className="card-inner">
           <div className="card-top">

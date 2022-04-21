@@ -44,6 +44,7 @@ const Header = () => {
             placeholder="Search Movies or Shows"
             onChange={(e) => setTerm(e.target.value)}
           />
+          {/* fa for font awesome icons */}
           <button type="submit">
             <i className="fa fa-search"></i>
           </button>
