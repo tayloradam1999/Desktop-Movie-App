@@ -5,6 +5,7 @@
   cursor: pointer;
   transition: all 0.3s;
   min-height: 450px;
+  max-height: 450px;
   height: 100%;
   margin: 10px;
 
@@ -24,7 +25,7 @@
 }
 
 .card-bottom {
-  padding: 20px;
+  padding: 10px;
 }
 
 .card-info {
