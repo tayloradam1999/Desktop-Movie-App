@@ -14,13 +14,13 @@ function App() {
         <Header></Header>
         <div className="container">
           <Switch>
-            <Route path="" exact component={Home} />
+            {/* a wide range of paths to Home because deploment was landing on 404 */}
+            <Route path="/Desktop-Movie-App" exact component={Home} />
             <Route path="/" exact component={Home} />
+            <Route exact component={Home} />
             {/* Route below hits the MovieDetail component with the imdbID */}
             {/* Check MovieCard.js line 12 */}
             <Route path="/movie/:imdbID" component={MovieDetail} />
-            {/* else, if no match, hit the PageNotFound component */}
-            <Route component={PageNotFound} />
           </Switch>
         </div>
         <Footer />
