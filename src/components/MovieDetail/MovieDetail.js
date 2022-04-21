@@ -33,7 +33,7 @@ const MovieDetail = () => {
       {/* If length is 0, display a loading message */}
       {/* else, display movie detail */}
       {Object.keys(data).length === 0 ? (
-        <div>Loading...</div>
+        <div className="loading">Loading...</div>
       ) : (
         <>
           <div className="section-left">
