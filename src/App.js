@@ -14,6 +14,7 @@ function App() {
         <Header></Header>
         <div className="container">
           <Switch>
+            <Route path="" exact component={Home} />
             <Route path="/" exact component={Home} />
             {/* Route below hits the MovieDetail component with the imdbID */}
             {/* Check MovieCard.js line 12 */}
