@@ -56,7 +56,9 @@ const MovieListing = () => {
         <h2>Movies</h2>
         <div className="movie-container">
           {/* Give Slider Settings from common/settings and render all movie cards in Slider */}
-          <Slider {...Settings}>{renderMovies}</Slider>
+          <>
+            <Slider {...Settings}>{renderMovies}</Slider>
+          </>
         </div>
       </div>
       <div className="show-list">

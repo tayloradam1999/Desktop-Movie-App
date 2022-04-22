@@ -10,13 +10,13 @@ All data is fetched from [OMDb API](https://www.omdbapi.com/).
 ## Dependencies
 | Library/Framework             |  Version  |
 | ----------------------------- | --------- | 
-| @reduxjs/toolkit              |  ^1.6.1   |
+| @reduxjs/toolkit              |  ^1.6.2   |
 | @testing-library/jest/dom     |  ^5.11.4  |
 | @testing-library/react        |  ^11.1.0  |
 | @testing-library/user-event   |  ^12.1.0  |
 | axios                         |  ^0.21.1  |
 | gh-pages                      |  ^3.2.3   |
-| node-sass                     |  ^6.0.1   |
+| node-sass                     |  ^7.0.1   |
 | react                         |  ^17.0.2  |
 | react-dom                     |  ^17.0.2  |
 | react-redux                   |  ^7.2.4   |

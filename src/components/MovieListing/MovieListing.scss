@@ -2,12 +2,13 @@
 
 .movie-list,
 .show-list {
-  margin: 20px 0px;
+  margin: 10px 0px;
 
   h2 {
-    color: $font-secondary;
+    color: $font-tertiary;
     margin-bottom: 10px;
     font-weight: 400;
+    padding-left: 8px;
   }
 }
 
