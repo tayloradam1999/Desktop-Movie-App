@@ -1,12 +1,17 @@
 # Desktop-Movie-App
 
 A ```React``` + ```rtk``` based application that allows users to search for movies, shows, and their corresponding details. 
-
+  
 All data is fetched from [OMDb API](https://www.omdbapi.com/).
-
+  
+## Reason for Creation
+Holberton Tulsa's React curriculum ended off on us learning about ```redux``` and ```react-redux```, and that left me thinking... what about ```@reduxjs/toolkit```?
+  
+I have read many blog posts and watched many videos covering how powerful ```@reduxjs/toolkit``` is, so I just had to get my hands dirty and try it out.
+  
 ## Visit Deployed Website
 <a href="https://tayloradam1999.github.io/Desktop-Movie-App/">Link to Website</a>
-
+  
 ## Dependencies
 | Library/Framework             |  Version  |
 | ----------------------------- | --------- | 
@@ -24,8 +29,4 @@ All data is fetched from [OMDb API](https://www.omdbapi.com/).
 | react-scripts                 |  ^5.0.1   |
 | react-slick                   |  ^0.29.0  |
 | redux                         |  ^4.1.1   |
-
-## Reason for Creation
-Holberton Tulsa's React curriculum ended off on us learning about ```redux``` and ```react-redux```, and that left me thinking... what about ```@reduxjs/toolkit```?
-
-I have read many blog posts and watched many videos covering how powerful ```@reduxjs/toolkit``` is, so I just had to get my hands dirty and try it out.
+  
