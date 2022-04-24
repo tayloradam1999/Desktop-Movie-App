@@ -1,6 +1,6 @@
 # Desktop-Movie-App
 
-A ```React``` + ```rtk``` based application that allows users to search for movies, shows, and their corresponding details. 
+A ```React``` + ```rtk``` based Desktop application that allows users to search for movies, shows, and their corresponding details. 
   
 All data is fetched from [OMDb API](https://www.omdbapi.com/).
   
