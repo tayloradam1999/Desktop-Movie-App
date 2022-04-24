@@ -11,6 +11,10 @@ I have read many blog posts and watched many videos covering how powerful ```@re
   
 ## Visit Deployed Website
 <a href="https://tayloradam1999.github.io/Desktop-Movie-App/">Link to Website</a>
+
+## To Do
+- Implement responsive design
+  - If above is achieved, rename application.
   
 ## Dependencies
 | Library/Framework             |  Version  |
